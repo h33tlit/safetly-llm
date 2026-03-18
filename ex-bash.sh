@@ -1,2 +1,5 @@
 #!/bin/bash
-open -a Calculator
+echo "--- SYSTEM CHECK ---"
+echo "Current User: $(whoami)"
+echo "Date: $(date)"
+echo "--- SUCCESS ---"
